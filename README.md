@@ -1,8 +1,8 @@
 # API
 
-A simple API that shows the use of get. 
+A simple API that uses express to handle different _http requests. 
 
-This is for the projects of the Campus Street, given as a class Activity.
+This is for the projects of the Campus Street Boot Camp, given as a class activity.
 
 ## How to Run
 
@@ -21,5 +21,6 @@ npm start # works the same for: node index.js
 ```
 
 
-##Requirement
+## Requirement
+
 Please do not forget to include the data.json file in the same folder.
