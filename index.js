@@ -1,7 +1,5 @@
 const express = require('express');
 const app = express();
-// const bodyparser = require('body-parser');
-// const chalk = require('chalk');
 
 //including the json file 
 var fs=require('fs');
@@ -10,10 +8,6 @@ var data=JSON.parse(readJson);
 
 //include the lodash
 const _ = require('lodash');
-
-// app.use(bodyparser.json());
-// app.use(chalk);
-// app.use(chokidar);
 
    app.get('/', (req, res)=>{
       res.send(easyQuestion)
