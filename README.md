@@ -20,5 +20,6 @@ Finally, run our application:
 npm start # works the same for: node index.js
 ```
 
+
 ##Requirement
 Please do not forget to include the data.json file in the same folder.
